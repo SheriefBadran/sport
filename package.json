@@ -1,0 +1,28 @@
+{
+  "name": "sportit",
+  "version": "0.0.1",
+  "description": "server sports api",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build"
+  },
+  "keywords": [
+    "strava",
+    "polar",
+    "sports",
+    "running",
+    "health",
+    "statistics"
+  ],
+  "author": "Sherief Badran",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^17.0.0",
+    "awesome-typescript-loader": "^3.4.1",
+    "backpack-core": "0.4.3",
+    "hapi": "^17.2.0",
+    "typescript": "^2.7.2"
+  }
+}
